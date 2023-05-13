@@ -32,9 +32,30 @@ function (_Model) {
   }
 
   return ProductTag;
-}(Model);
+}(Model); // define columns
 
-ProductTag.init({// define columns
+
+ProductTag.init({
+  id: {
+    type: DataTypes.INTEGER,
+    primaryKey: true,
+    allowNull: false,
+    autoIncrement: true
+  },
+  product_id: {
+    type: DataTypes.INTEGER,
+    references: {
+      model: 'product',
+      key: 'id'
+    }
+  },
+  tag_id: {
+    type: DataTypes.INTEGER,
+    references: {
+      model: 'tag',
+      key: 'id'
+    }
+  }
 }, {
   sequelize: sequelize,
   timestamps: false,
