@@ -17,6 +17,7 @@ npm run seed
 2. Run the following command to start the server and sync the Sequelize models to the MySQL database:
 npm start
 
+![screenshot](Capture.PNG)
 ## Usage
 To test the API, open Insomnia Core or any other similar tool and enter the following endpoints:
 
