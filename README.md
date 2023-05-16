@@ -12,13 +12,13 @@ DB_NAME=your_database_name
 DB_USER=your_mysql_username
 DB_PASSWORD=your_mysql_password
 
-Run the following command to create the development database and seed it with test data:
+1. Run the following command to create the development database and seed it with test data:
 npm run seed
 
-Run the following command to start the server and sync the Sequelize models to the MySQL database:
+2. Run the following command to start the server and sync the Sequelize models to the MySQL database:
 npm start
 
-Usage
+## Usage
 To test the API, open Insomnia Core or any other similar tool and enter the following endpoints:
 
 GET /categories,
