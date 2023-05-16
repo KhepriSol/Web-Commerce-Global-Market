@@ -8,9 +8,8 @@ Clone the repository to your local machine.
 Navigate to the project directory.
 Run npm install to install all the necessary dependencies.
 Create a .env file in the root directory of the project and add the following environment variables with your own MySQL database information:
-DB_NAME=your_database_name
-DB_USER=your_mysql_username
-DB_PASSWORD=your_mysql_password
+
+DB_NAME=your_database_name // DB_USER=your_mysql_username // DB_PASSWORD=your_mysql_password
 
 1. Run the following command to create the development database and seed it with test data:
 npm run seed
