@@ -18,6 +18,10 @@ npm run seed
 npm start
 
 ![screenshot](Capture.PNG)
+
+## Walkthrough 
+https://youtu.be/SRNyqTFt9Lg
+
 ## Usage
 To test the API, open Insomnia Core or any other similar tool and enter the following endpoints:
 
