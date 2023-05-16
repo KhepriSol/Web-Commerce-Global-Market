@@ -21,16 +21,16 @@ npm start
 Usage
 To test the API, open Insomnia Core or any other similar tool and enter the following endpoints:
 
-GET /categories
-GET /products
-GET /tags
-POST /categories
-POST /products
-POST /tags
-PUT /categories/:id
-PUT /products/:id
-PUT /tags/:id
-DELETE /categories/:id
-DELETE /products/:id
-DELETE /tags/:id
+GET /categories,
+GET /products,
+GET /tags,
+POST /categories,
+POST /products,
+POST /tags,
+PUT /categories/:id,
+PUT /products/:id,
+PUT /tags/:id,
+DELETE /categories/:id,
+DELETE /products/:id,
+DELETE /tags/:id,
 The GET routes will display the data for each category, product, or tag in a formatted JSON. The POST, PUT, and DELETE routes will allow you to create, update, and delete data in the database.
