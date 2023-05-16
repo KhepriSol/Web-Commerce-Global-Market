@@ -32,8 +32,7 @@ function (_Model) {
   }
 
   return ProductTag;
-}(Model); // define columns
-
+}(Model);
 
 ProductTag.init({
   id: {

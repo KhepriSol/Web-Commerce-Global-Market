@@ -5,7 +5,7 @@ const tagData = [
     tag_name: 'rock music',
   },
   {
-    tag_name: 'pop music',
+    tag_name: 'punk music',
   },
   {
     tag_name: 'blue',
@@ -20,10 +20,10 @@ const tagData = [
     tag_name: 'white',
   },
   {
-    tag_name: 'gold',
+    tag_name: 'Yellow',
   },
   {
-    tag_name: 'pop culture',
+    tag_name: 'punk culture',
   },
 ];
 
